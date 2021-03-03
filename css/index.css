@@ -1,0 +1,104 @@
+
+
+/* HOME PAGE */
+
+.container {
+    display: block;
+    width: 75%;
+    height: 600px;
+    margin: 6.25% 12.5% 6.25% 12.5%;
+    -webkit-box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2);
+    color:#424242;
+    border-radius: 50px 0 0 0;
+    overflow: hidden;
+    background-color: #fcfcfc;
+}
+/* ARTICLE */
+.container--article{
+    position: relative;
+    text-align: center;
+    width: 62.5%;
+    padding: 100px 100px;
+    float: left;  
+}
+.container--article span{
+    position: absolute;
+    font-family: 'h1-font-light-italic', sans-serif;
+    font-size: 80%;
+    top: 34px;
+    left: 30px;
+}
+.container--article-text{
+    color:#424242;
+
+}
+.container--article-text h1{
+    font-family: 'Gotu', sans-serif;
+    font-weight: 400;
+    padding-top: 50px;
+    text-align: right;
+}
+.container--article-text p{
+    display: block;
+    font-family: 'Gotu',sans-serif;
+    font-size: 100%;
+    text-indent: 250px;
+    word-spacing: 3px;
+    padding-top: 10px;
+    text-align: justify;
+    
+}
+.container--article-buttons{
+   font-size: 80%;
+   position: absolute;
+   bottom: 10px;
+   right: 100px;
+}
+.container--article-buttons ul li {
+    display: inline-block;
+}
+.container--article-buttons ul li:first-child{
+    margin-right: 10px;
+}
+.container--article-buttons a {   
+    font-family: 'Gotu', sans-serif;    
+    padding: 13px 10px 10px 10px;
+    background-color: #f2f2f2;
+    color :#424242;
+    border-radius: 10px;
+}
+.container--article-buttons a:hover {
+    background-color: #ffb049;
+    transition: .3s ease;
+    color: #ffffff;
+}
+
+/* ASIDE IMG */
+.container--aside{
+    width: 37.5%;
+    float: left;
+}
+.container--aside-img{
+    position: relative;
+    width: auto;
+    height: 600px;
+    overflow: hidden;
+}
+.kid-img{
+    position: absolute;
+    top: -400px;
+    left: -90px;
+}
+.older-img{
+    position: absolute;
+    top: -90px;
+    left: -10px;            
+    zoom: 1.1;
+}
+.container--aside-img:hover .older-img{
+    opacity: 0;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}

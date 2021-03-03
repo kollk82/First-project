@@ -1,0 +1,129 @@
+
+
+/*  CONTACT FORM FOR CONTACT AND REGISTRATION  */
+
+
+
+.container-contact {
+    display: block;
+    width: 75%;
+    margin: 6.25% 12.5% 6.25% 12.5%;
+    -webkit-box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2);
+    color:#424242;
+    border-radius: 50px 0 0 0;
+    font-family: 'Gotu', sans-serif;
+    background-color: #fcfcfc;
+}
+.form-contact{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}   
+.container--form-box1{
+    height: 100px;
+    margin: 90px auto 20px auto;
+}
+.container--form-box1 h1{
+    white-space: nowrap;
+}
+.container--form-box2{
+    margin-bottom: 120px;
+}
+.container--form-box1,
+.container--form-box2 input{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* outline: 1px solid rgb(0, 81, 255); */
+
+}
+.container--form-box1{
+    text-transform: uppercase;
+    font-size: 200%;
+}
+.form-firstname,
+.form-secondname,
+.form-password,
+.form-email,
+.form-username{
+    height: 50px;
+    margin: 10px 0;
+    width: 100%;
+}
+.form-control textarea:focus,
+.form-control input:focus{
+    border: 1px solid #ffb049;
+    border-radius: 12px;
+}
+.form-control input,
+.form-control textarea{
+    font-size: 100%;
+    resize: none;
+    border-radius: 12px;
+    border: 1px solid #d1d1d1;
+    width: 100%;
+}
+.form-control input{
+    height: 50px;
+}
+.form-textbox{
+    margin-bottom: 10px;
+}
+::-webkit-input-placeholder{
+    color: #a3a3a3;
+    padding-left: 10px;
+    font-family: "Gotu", sans-serif;
+}
+::-moz-placeholder{
+    color: #a3a3a3;
+    padding-left: 10px;
+    font-family: "Gotu", sans-serif;
+}
+:-ms-input-placeholder{
+    color: #a3a3a3;
+    padding-left: 10px;
+    font-family: "Gotu", sans-serif;
+}
+::-ms-input-placeholder{
+    color: #a3a3a3;
+    padding-left: 10px;
+    font-family: "Gotu", sans-serif;
+}
+::placeholder{
+    color: #a3a3a3;
+    padding-left: 10px;
+    font-family: "Gotu", sans-serif;
+}
+.form-button{
+    float: right;
+}
+.form-button button{
+    font-family: 'Gotu', sans-serif;
+    font-size: 120%;
+    padding: 10px;
+    color: #424242;
+    cursor: pointer;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+}
+.form-button button:focus,
+.form-button button:hover{
+    border: 1px solid #d1d1d100;
+    background-color: #ffb049;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+   
+}
