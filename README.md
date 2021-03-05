@@ -6,7 +6,7 @@
 -- only HTML and CSS here  
 -- some flexbox attempts, at this stage just messing with it.  
 -- >< >< CSS is bad.  
--- nothing change since last time Flexbox, Grid...Grid??  
+-- nothing changed since last time Flexbox, Grid...Grid??  
 -- I knew Bootstrap by name...pointless, can't learn CSS with this s><t.  
 -- VSCode high five.  
 --Thats it.  
