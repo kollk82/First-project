@@ -133,7 +133,6 @@
     width: auto;
     height: auto;
     margin: 7% 2%;
-    /* outline: 1px solid red; */
 }
 .experience .experience--box-1{
     display: -webkit-box;
@@ -204,7 +203,6 @@
     -webkit-box-shadow: -10px 0px 10px -10px #000000;
             box-shadow: -10px 0px 10px -10px #000000;
     padding: 0;
-
     width: 100%;
 }
 .experience--box-2-abilities .skills,
@@ -218,9 +216,7 @@
             flex: 1;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: space-around;
-            
-
+            justify-content: space-around;     
     width: 100%;
    
    
@@ -230,6 +226,7 @@
 .experience--box-2-abilities .lng table,
 .experience--box-2-abilities .tools table{
     width: 100%;
+    height: max-content;
 }
 
 .experience--box-2-abilities .skills td,
